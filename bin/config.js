@@ -8,7 +8,7 @@ var debugRouting = require("debug")("maple:routing")
 
 // // //
 
-global.rootDir = require("app-root-path") + "/"
+global.rootDir = require("app-root-path") + "/mfm-test/"
 
 var config =
     {
