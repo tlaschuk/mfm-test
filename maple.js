@@ -1,18 +1,21 @@
+var appRoot = require('app-root-path')
+var rootDir = appRoot
+
 var express = require("express")
 var favicon = require("serve-favicon")
 var logger  = require("morgan")
 var stylus  = require("stylus")
-var config  = require(rootDir + "bin/config")
+var config  = require(rootDir + "/bin/config")
 
-var home     = require(rootDir + "routes/home")
-var missions = require(rootDir + "routes/missions")
-var faq      = require(rootDir + "routes/faq")
-var help     = require(rootDir + "routes/help")
-var license  = require(rootDir + "routes/license")
-var support  = require(rootDir + "routes/support")
-var hardware = require(rootDir + "routes/hardware")
-var store    = require(rootDir + "routes/store")
-var about    = require(rootDir + "routes/about")
+var home     = require(rootDir + "/routes/home")
+var missions = require(rootDir + "/routes/missions")
+var faq      = require(rootDir + "/routes/faq")
+var help     = require(rootDir + "/routes/help")
+var license  = require(rootDir + "/routes/license")
+var support  = require(rootDir + "/routes/support")
+var hardware = require(rootDir + "/routes/hardware")
+var store    = require(rootDir + "/routes/store")
+var about    = require(rootDir + "/routes/about")
 
 // // //
 
